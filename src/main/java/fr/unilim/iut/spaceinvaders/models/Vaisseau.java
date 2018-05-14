@@ -21,6 +21,11 @@ public class Vaisseau {
 	public int abscisse() {
         return this.x;
 	}
+
+	public void seDeplacerVersLaGauche() {
+		// TODO Auto-generated method stub
+		this.x = this.x - 1 ;
+	}
 	
 	
 }

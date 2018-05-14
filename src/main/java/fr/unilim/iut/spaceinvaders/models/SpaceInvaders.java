@@ -70,4 +70,9 @@ public class SpaceInvaders {
 	        if (vaisseau.abscisse()< (longueur-1)) vaisseau.seDeplacerVersLaDroite();
 		}
 
+		public void deplacerVaisseauVersLaGauche() {
+			// TODO Auto-generated method stub
+			if (vaisseau.abscisse()> 1) vaisseau.seDeplacerVersLaGauche();
+		}
+
  }
